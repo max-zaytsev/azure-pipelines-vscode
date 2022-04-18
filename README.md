@@ -87,6 +87,8 @@ VS Code collects usage data and sends it to Microsoft to help improve our produc
 
 - **Failed to determine Azure Repo details from remote url**: If you're configuring a pipeline for a Git repository backed by Azure Repos, ensure that it has a remote pointing to a valid Azure Repos Git repo URL.
 
+- **Automatic fetching of the organization schema doesn't work**: Try signing in with `Azure: Sign In` command from vscode command palette (Ctrl/Cmd + Shift + P). If that doesn't help, try signing out first (`Azure: Sign In` command).
+
 ## Extension Development
 
 If you are only working on the extension (i.e. syntax highlighting, configure pipeline, and the language client):
